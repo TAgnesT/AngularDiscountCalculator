@@ -1,0 +1,24 @@
+<div class="formdiv">
+    <i class="bi bi-piggy-bank-fill" style="font-size: 2rem; color: rgba(255, 255, 255, 0.86)"></i>
+    <h1 class="title">Discount Calculator</h1>
+    <label>Name</label>
+    <input type="text" />
+
+    <label>Age</label>
+    <input #iage type="number" />
+
+    <label>All you can move card?</label>
+    <span>Yes</span><input #iaycm type="radio" name="card" value="yes" />
+    <span>No</span> <input type="radio" name="card" value="no" />
+
+    <label>Which train did you take?</label>
+    <select #itrain class="trainw">
+        <option value="blue">Blue wave IC</option>
+        <option value="red">Red heat IC</option>
+        <option value="green">Green Eco IC</option>
+    </select>
+
+    <button (click)="calc(iage, iaycm, itrain)">Discount calculation</button>
+
+    <h3 class="final">Discount: {{discount}}%</h3>
+</div>

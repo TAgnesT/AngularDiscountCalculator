@@ -1,0 +1,75 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-image: url('https://wallpaperbat.com/img/767067-black-abstract-wallpaper-top-free-black-abstract-background.jpg');
+}
+
+.formdiv{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 60%;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: rgba(60, 115, 255, 0.551);
+    box-shadow: 1px 2px 5px 1px rgba(36, 31, 180, 0.682);
+}
+
+.formdiv h1{
+    text-shadow: 0.2px 1px #0633bcea;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.formdiv label, input, button, select, span{
+    margin: 10px;
+    padding: 10px;
+}
+
+.formdiv input{
+    margin: 0 auto;
+    width: 60%;
+    border-radius: 15px;
+}
+
+.formdiv label {
+    margin-top: 35px;
+    font-weight: bold;
+    font-size: 18px;
+    border-top: 1px solid rgba(0, 0, 0, 0.201);
+    text-shadow: 0.2px 1px #0633bcea;
+}
+
+.final{
+    color: white;
+    text-shadow: 2px 2px #000000cc;
+}
+
+.trainw, button{
+    margin: 10px auto;
+    width: 60%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button{
+    margin-top: 2rem;
+    padding: 1rem;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: rgba(29, 29, 225, 0.777);
+    border: 1px solid rgba(0, 0, 0, 0.322);
+}
+
+button:hover{
+    background-color: rgba(0, 38, 255, 0.732);
+}
+
+span{
+    font-weight: bold;
+    font-size: 16px;
+}
